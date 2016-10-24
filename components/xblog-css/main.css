@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+    color: #3A4145;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 14px;
+}
+
+.main-header {
+	position: relative;
+}
+
+.main-nav {
+    position: relative;
+    padding: 35px 40px;
+    margin: 0 0 30px 0;
+}
+
+.post-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+	width: 100%;
+    position: relative;
+    margin: 40px auto 0;
+    word-break: break-word;
+}
+
+.post-title {
+    cursor: pointer;
+}
+
+.post-title a {
+    text-decoration: none;
+}
+
+.post-meta a {
+	color: #9EABB3;
+    text-decoration: none;
+}
+
+a {
+    color: #444;
+}
+
+.post-meta {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #9EABB3;
+}
+
+.post-list md-list-item.md-no-proxy {
+	padding: 0;
+}
+
+.post-list md-divider {
+	border-top-style: dashed;
+}
+
+.post-content {
+	margin: 25px 0 0;
+}
+
+.content {
+	margin: 20px auto;
+}
+
+.content .post-date {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.post-date {
+    display: inline-block;
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: #d5dbde 1px solid;
+    text-transform: uppercase;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.markdown p, .markdown ul, .markdown ol, .markdown dl {
+    margin: 0 0 1.75em 0;
+}
+
+.compact md-list-item .md-no-style, .compact md-list-item.md-no-proxy {
+	min-height: 32px;
+}
+
+.header-img {
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.admin-input-form {
+	padding: 40px;
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.norm-input {
+	width: 400px;
+}
+
+.action {
+	margin: 25px 0 0;
+}
+
+.action .md-button {
+	margin-left: 0;
+}
+
+blockquote {
+	margin: 0 -24px;
+    padding: 0 20px;
+    border-left: 4px solid;
+}

@@ -1,0 +1,3 @@
+AdminController = function($scope, $routeParams) {
+	
+};
